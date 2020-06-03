@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Wanck Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<style type="text/css">
+		#home {
+			width: 100vw;
+			height: 100vh;
+			padding: 60px;
+			background-image: url(image/header2.jpg);
+			background-size: 100% 100%;
+		}
+
+		#contact {
+			height: 100vh;
+		}
+
+		.title_white {
+			color: white;
+		}
+
+		img {
+			width: 280px;
+			transition: opacity .1s ease-in-out;
+		}
+
+		img:hover {
+			opacity: .5;
+		}
+
+		.col-text {
+			-webkit-column-count: 4;
+		}
+
+		#web_img {
+			width: 530px;
+			height: 230px;
+		}
+	</style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+
+	<!-- Menu bar -->
+	<nav class="navbar navbar-inverse navbar-fixed-bottom">
+		<div class="navbar-header">
+			<div class="navbar-brand">Wanck Gaida</div>
+		</div>
+
+		<ul class="nav navbar-nav">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#expertise">What I do</a></li>
+			<li><a href="#about">What about me</a></li>
+			<li><a href="#contact">Contact me</a></li>
+		</ul>
+	</nav>
+
+	<!-- header content -->
+
+	<section id="home" class="title_white text-center">
+		<h1>My Portfolio</h1>
+		<p class="lead">Let just read myself and Contact Me!</p>
+		<a href="#contact"><button class="btn btn-default" onclick="#contact">Contact Me !</button></a>
+	</section>
+
+
+	<!-- Expertise-->
+
+	<section id="expertise" class="container">
+		<div class="page-header text-center">
+			<h1>Expertise</h1>
+		</div>
+
+		<div class="row center-block">
+			<img src="image/photos.png" class="img-thumbnail" style="float: left; height: 220px; width: 200px;">
+			<p style="text-align: justify;">Suspendisse efficitur enim quam, non mattis odio luctus eget. Aliquam leo lacus, commodo in leo sit amet, facilisis fermentum massa. Donec sapien lectus, aliquet ut massa in, lacinia maximus nisi. In vehicula ac
+				velit ut volutpat. Nam suscipit ultrices nisl ac sodales. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean tincidunt tortor sit amet pellentesque feugiat. Orci varius natoque penatibus et magnis
+				dis parturient montes, nascetur ridiculus mus. Vivamus id libero eu nisl posuere viverra. Mauris maximus dolor quam, a vehicula enim scelerisque finibus. Curabitur sodales mauris sed sodales convallis. Ut sed congue lacus. Aenean tincidunt
+				tortor sit amet pellentesque feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus id libero eu nisl posuere viverra. Mauris maximus dolor quam, a vehicula enim scelerisque finibus. Curabitur
+				sodales mauris sed sodales convallis. Ut sed congue lacus. Suspendisse efficitur enim quam, non mattis odio luctus eget. Nam suscipit ultrices nisl ac sodales. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+				mus. Aenean tincidunt tortor sit amet pellentesque feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus id libero eu nisl posuere viverra. Mauris maximus dolor quam, a vehicula enim
+				scelerisque finibus. Curabitur sodales mauris sed sodales convallis. Ut sed congue lacus. Aenean tincidunt tortor sit amet pellentesque feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus id
+				libero eu nisl posuere viverra. Mauris maximus dolor quam, a vehicula enim scelerisque finibus. Curabitur sodales mauris sed sodales convallis. Ut sed congue lacus. Suspendisse efficitur enim quam, non mattis odio luctus eget. Nam suscipit
+				ultrices nisl ac sodales. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean tincidunt tortor sit amet pellentesque feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+				ridiculus mus. Vivamus id libero eu nisl posuere viverra. Mauris maximus dolor quam, a vehicula enim scelerisque finibus. Curabitur sodales mauris sed sodales convallis. Ut sed congue lacus. Aenean tincidunt tortor sit amet pellentesque
+				feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus id libero eu nisl posuere viverra. Mauris maximus dolor quam, a vehicula enim scelerisque finibus. Curabitur sodales mauris sed sodales
+				convallis. Ut sed congue lacus. Suspendisse efficitur enim quam, non mattis odio luctus eget.</p>
+		</div>
+
+		<div class="row">
+			<!-- Web development-->
+			<div class="col-md-6">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h4>Web developement</h4>
+					</div>
+					<div class="panel-body">
+						<img src="image/web_dev.jpg" id="web_img" class="center-block">
+					</div>
+				</div>
+			</div>
+			<!-- Android app development-->
+			<div class="col-md-6">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h4>Android app Development</h4>
+					</div>
+					<div class="panel-body">
+						<img src="image/android-app.png" id="web_img" class="center-block">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row center-block">
+			<p style="text-align: justify;">Suspendisse efficitur enim quam, non mattis odio luctus eget. Aliquam leo lacus, commodo in leo sit amet, facilisis fermentum massa. Donec sapien lectus, aliquet ut massa in, lacinia maximus nisi. In vehicula ac
+				velit ut volutpat. Nam suscipit ultrices nisl ac sodales. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean tincidunt tortor sit amet pellentesque feugiat. Orci varius natoque penatibus et magnis
+				dis parturient montes, nascetur ridiculus mus. Vivamus id libero eu nisl posuere viverra. Mauris maximus dolor quam, a vehicula enim scelerisque finibus. Curabitur sodales mauris sed sodales convallis. Ut sed congue lacus. Aenean tincidunt
+				tortor sit amet pellentesque feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus id libero eu nisl posuere viverra. Mauris maximus dolor quam, a vehicula enim scelerisque finibus. Curabitur
+				sodales mauris sed sodales convallis. Ut sed congue lacus. Suspendisse efficitur enim quam, non mattis odio luctus eget. Aliquam leo lacus, commodo in leo sit amet, facilisis fermentum massa. Donec sapien lectus, aliquet ut massa in, lacinia
+				maximus nisi. In vehicula ac velit ut volutpat. Nam suscipit ultrices nisl ac sodales. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+		</div>
+
+		<div class="row">
+			<!-- IOS app development -->
+			<div class="col-md-6">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h4>IOS app Developement</h4>
+					</div>
+					<div class="panel-body">
+						<img src="image/ios_app.png" id="web_img" class="center-block">
+					</div>
+				</div>
+			</div>
+			<!-- Java-->
+			<div class="col-md-6">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h4>Java</h4>
+					</div>
+					<div class="panel-body">
+						<img src="image/java.png" id="web_img" class="center-block">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row center-block">
+			<p style="text-align: justify;">Suspendisse efficitur enim quam, non mattis odio luctus eget. Aliquam leo lacus, commodo in leo sit amet, facilisis fermentum massa. Donec sapien lectus, aliquet ut massa in, lacinia maximus nisi. In vehicula ac
+				velit ut volutpat. Nam suscipit ultrices nisl ac sodales. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean tincidunt tortor sit amet pellentesque feugiat. Orci varius natoque penatibus et magnis
+				dis parturient montes, nascetur ridiculus mus. Vivamus id libero eu nisl posuere viverra. Mauris maximus dolor quam, a vehicula enim scelerisque finibus. Curabitur sodales mauris sed sodales convallis. Ut sed congue lacus. Aenean tincidunt
+				tortor sit amet pellentesque feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus id libero eu nisl posuere viverra. Mauris maximus dolor quam, a vehicula enim scelerisque finibus. Curabitur
+				sodales mauris sed sodales convallis. Ut sed congue lacus. Suspendisse efficitur enim quam, non mattis odio luctus eget. Aliquam leo lacus, commodo in leo sit amet, facilisis fermentum massa. Donec sapien lectus, aliquet ut massa in, lacinia
+				maximus nisi. In vehicula ac velit ut volutpat. Nam suscipit ultrices nisl ac sodales. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+		</div>
+		<hr>
+
+	</section>
+
+
+	<!-- About Me -->
+
+	<section id="about" class="container">
+		<div class="page-header">
+			<h1 class="text-center">About Me</h1>
+		</div>
+		<div class="row text-center">
+			<img src="image/img1.jpg" class="img-thumbnail">
+			<img src="image/img10.jpg" class="img-thumbnail">
+			<img src="image/img9.jpg" class="img-thumbnail">
+			<img src="image/img11.jpg" class="img-thumbnail">
+		</div>
+
+		<div class="row center-block">
+			<p class="col-text" style="text-align: justify;">In tincidunt convallis turpis quis aliquet. Quisque faucibus fringilla ex. Nullam gravida tellus dolor, in pulvinar dui varius at. Donec facilisis non tortor eget fermentum. Proin auctor nibh vel
+				suscipit malesuada. Fusce facilisis eros nisl. Integer sem nisi, lacinia ut efficitur porttitor, lobortis quis lacus. Pellentesque in diam pretium, pretium arcu at, consectetur leo. Fusce vestibulum nunc sit amet dictum condimentum. Mauris
+				eget posuere tellus. Cras id augue ultrices, ultricies leo vel, scelerisque mi. Proin vel commodo eros. Integer congue, mi a auctor scelerisque, odio purus elementum eros, ut volutpat leo dolor eu tortor. Nam elementum nec ipsum vitae
+				egestas. Maecenas arcu ligula, faucibus a consequat quis, scelerisque sed sem. Nunc porta, augue eget aliquet varius, urna dui mollis felis, ac ultrices mi dolor nec elit.Quisque faucibus fringilla ex. Nullam gravida tellus dolor, in pulvinar
+				dui varius at. Donec facilisis non tortor eget fermentum. Proin auctor nibh vel suscipit malesuada. Fusce facilisis eros nisl. Maecenas arcu ligula, faucibus a consequat quis, scelerisque sed sem. Nunc porta, augue eget aliquet varius, urna
+				dui mollis felis, ac ultrices mi dolor nec elit.Quisque faucibus fringilla ex. Nullam gravida tellus dolor, in pulvinar dui varius at. Donec facilisis non tortor eget fermentum. Integer sem nisi, lacinia ut efficitur porttitor, lobortis quis
+				lacus. Pellentesque in diam pretium, pretium arcu at, consectetur leo. </p>
+		</div>
+		<hr>
+	</section>
+
+
+	<!-- Contact -->
+
+	<section id="contact" class="container" style="background-color: #DADCDF;">
+		<div class="page-header">
+			<h2 class="text-center">Contact Me !</h2>
+		</div>
+		<form class="col-md-5 col-md-offset-4">
+			<div class="form-group">
+				<input type="text" name="myName" placeholder="Enter your name" class="form-control">
+			</div>
+			<div class="form-group">
+				<input type="text" name="myEmail" placeholder="Enter your email" class="form-control">
+			</div>
+			<div class="form-group">
+				<input type="text" name="" placeholder="Subject" class="form-control">
+			</div>
+			<div class="form-group">
+				<textarea class="form-control"></textarea>
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Submit" class="btn btn-success btn-block">
+			</div>
+		</form>
+	</section>
+
+	</div>
+
+</body>
+
+</html>
